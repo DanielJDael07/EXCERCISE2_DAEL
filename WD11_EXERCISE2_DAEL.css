@@ -1,0 +1,62 @@
+body {
+  background-color: bisque;
+}
+
+header {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+h1{
+  font-family: "Fira Sans", sans-serif;
+  font-size: 50px;
+  color: blueviolet;
+}
+
+
+
+.paragraph {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}
+
+dl {
+  margin: 10px;
+}
+
+.dt a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  display: inline-block;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: rgb(222, 198, 245);
+  color: red;
+}
+
+footer {
+  margin-top: 60px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-size: small;
+}
+ footer p a:hover {
+    background-color: yellow;
+ }
